@@ -1,0 +1,15 @@
+.itemTitleButton {
+  transition: all 0.15s ease-out;
+  cursor: default;
+  border-radius: var(--mantine-radius-default);
+  transform-origin: center;
+  z-index: 1;
+
+  &.active:hover {
+    padding: var(--mantine-spacing-sm);
+    transform: scale(1.1);
+    margin-top: calc(var(--mantine-spacing-sm) * -1.4);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+  }
+}

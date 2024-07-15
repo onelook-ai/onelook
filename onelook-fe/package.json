@@ -1,0 +1,62 @@
+{
+  "name": "onelook-fe",
+  "author": "Onelook.ai",
+  "version": "0.1.0",
+  "description": "Onelook helps you generate pentest reports from pentesting session videos using AI.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "refine dev",
+    "build": "refine build",
+    "start": "refine start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.10.1",
+    "@mantine/dates": "^7.10.1",
+    "@mantine/dropzone": "^7.10.1",
+    "@mantine/form": "^7.10.1",
+    "@mantine/hooks": "^7.10.1",
+    "@mantine/modals": "^7.10.1",
+    "@mantine/notifications": "^7.10.1",
+    "@mdxeditor/editor": "^3.6.1",
+    "@refinedev/cli": "^2.16.33",
+    "@refinedev/core": "^4.51.0",
+    "@refinedev/devtools": "^1.2.3",
+    "@refinedev/mantine": "^2.32.0",
+    "@refinedev/nextjs-router": "^6.0.6",
+    "@tabler/icons-react": "^3.6.0",
+    "@types/file-saver": "^2.0.7",
+    "@types/lodash-es": "^4.17.12",
+    "ai": "^3.2.5",
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.11",
+    "file-saver": "^2.0.5",
+    "fix-webm-duration": "^1.0.5",
+    "jimp": "^0.22.12",
+    "next": "14.2.3",
+    "query-string": "^9.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1",
+    "remark-docx": "^0.1.6",
+    "remark-gfm": "^4.0.0",
+    "remark-pdf": "^0.0.13",
+    "unified": "^11.0.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/wicg-file-system-access": "^2023.10.5",
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "^1.15.0",
+    "postcss-simple-vars": "^7.0.1",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "resolutions": {
+    "strip-ansi": "6.0.0"
+  }
+}
