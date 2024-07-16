@@ -1,0 +1,1 @@
+ALTER TABLE sessions ALTER COLUMN video_full_storage_path DROP NOT NULL;

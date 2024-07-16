@@ -1,0 +1,11 @@
+# These values should not be modified.
+flyway.baselineOnMigrate=false
+flyway.outOfOrder=false
+flyway.failOnMissingLocations=true
+flyway.locations=filesystem:migrations
+
+# Modify these values as necessary.
+# You need to create the database and user prior to running migrations.
+flyway.url=jdbc:postgresql://localhost:5432/onelook
+flyway.user=onelook
+flyway.password=onelook
