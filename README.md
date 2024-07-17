@@ -9,9 +9,9 @@ Onelook is an open-source, self-hosted project that generates pentesting reports
 1. Avoiding context switching to jot down notes during the pentesting session.
 2. Based on the exploits found, draft a detailed report which the user can review or edit upon.
 
-<!-- TODO: insert demo video -->
-
 ## How it works
+
+https://github.com/user-attachments/assets/149438a0-2b67-4eae-9245-52cfd3b7bc3b
 
 Either upload a screen recording of a pentesting session or start a screen recording directly from the webapp when conducting a pentesting session. Onelook processes the video (see [Video processing](#video-processing)) and once processing is completed, you can create reports by picking segments in the video.
 
